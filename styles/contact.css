@@ -1,0 +1,30 @@
+#contact{
+    display: flex;
+    padding: 25px 20%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.contact-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.contact-wrapper > div {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #333;
+    margin-right: 50px;
+    
+}
+
+.contact-wrapper > div > i{
+    margin: 0.5em;
+    
+}
+
+
+

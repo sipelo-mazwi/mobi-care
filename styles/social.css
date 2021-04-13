@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+
+/*..... social......*/
+#social{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20%;
+    font-size: 12px;
+}
+#icons{
+    font-size: 16px;
+}
+.social-contact{
+    display: flex;
+}
+.social-contact p{
+    margin-right: 20px;
+    
+}
+/*.....contact.....*/
