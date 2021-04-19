@@ -1,68 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- External links -->
-    <script src="https://kit.fontawesome.com/e7f0e6fe44.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="./styles/social.css">
-    <link rel="stylesheet" href="./styles/contact.css">
+    <script
+      src="https://kit.fontawesome.com/e7f0e6fe44.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./styles/social.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="./styles/landing.css" />
+
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Social Bar -->
     <div id="social">
-        <div class="social-contact">     
-
-                <p><i class="fas fa-home"></i> 164 Ntlazane Road, Ilitha Park, 7784</p>
-                <p><i class="far fa-envelope"></i> mazwisipelo@gmail.com</p>
-
-        </div>
-        <div id="icons">
-            <i class="fab fa-facebook-f"></i> / <i class="fab fa-twitter"></i> / <i class="fab fa-linkedin-in"></i> /  <i class="fab fa-instagram"></i> / <i class="fab fa-vimeo"></i>
-        </div>
+      <div class="social-contact">
+        <p><i class="fas fa-home"></i> 164 Ntlazane Road, Ilitha Park, 7784</p>
+        <p><i class="far fa-envelope"></i> mazwisipelo@gmail.com</p>
+      </div>
+      <div id="icons">
+        <i class="fab fa-facebook-f"></i> / <i class="fab fa-twitter"></i> /
+        <i class="fab fa-linkedin-in"></i> / <i class="fab fa-instagram"></i> /
+        <i class="fab fa-vimeo"></i>
+      </div>
     </div>
     <!-- Contact -->
     <div id="contact">
-        <img src="./Images/logo.png" alt="Mobile Repair">
-        <div class="contact-wrapper">
-            <div>
-                <i class="fas fa-phone-alt" style="font-size: 25px;"></i>
-                
-                <div>
-                    <p>CONTACT US</p>
-                    <p style="color: #f26422;"><b>098 006 1234</b></p>
-                </div>
-            </div>
+      <img src="./Images/logo.png" alt="Mobile Repair" />
+      <div class="contact-wrapper">
+        <div>
+          <i class="fas fa-phone-alt" style="font-size: 25px"></i>
 
-        
-
-            <div>
-                <i class="far fa-clock" style="font-size: 25px;"></i>
-                <div>
-                    <p>WORKING TIME</p>
-                    <p style="color: #f26422;"><b>Mon-Sat: 09:00 - 17:00</b></p>
-                </div> 
-            </div> 
-            <div>
-                <a href="#" class="w3-btn w3-deep-orange">GET A FREE QUOTE</a>
-            </div>
-            
+          <div>
+            <p>CONTACT US</p>
+            <p style="color: #f26422"><b>098 006 1234</b></p>
+          </div>
         </div>
-        
-        
 
+        <div>
+          <i class="far fa-clock" style="font-size: 25px"></i>
+          <div>
+            <p>WORKING TIME</p>
+            <p style="color: #f26422"><b>Mon-Sat: 09:00 - 17:00</b></p>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="w3-btn w3-deep-orange">GET A FREE QUOTE</a>
+        </div>
+      </div>
     </div>
-
-
-
-    
     <!-- Navigation -->
-    <div>NavBar</div>
+    <div>
+      <!-- <nav>
+            <ul class="menu">
+                <li class="item"><a href="#">HOME</a></li>
+                <li class="item"><a href="#">ABOUT US</a></li>
+                <li class="item"><a href="#">OUR TEAM</a></li>
+                <li class="item"><a href="#">PAGES</a></li>
+                <li class="item"><a href="#">OUR SERVICES</a></li>
+                <li class="item"><a href="#">BLOG</a></li>
+                <li class="item"><a href="#">SHOP</a></li>
+                <li class="item"><a href="#">CONTACT US</a></li>
+            </nav> -->
+
+      <nav id="navbar">
+        <ul class="navbar-links">
+          <li class="navbar-link"><a href="#">HOME</a></li>
+          <li class="navbar-link"><a href="#">ABOUT US</a></li>
+          <li class="navbar-link"><a href="#">OUR TEAM</a></li>
+          <li class="navbar-link"><a href="#">PAGES</a></li>
+          <li class="navbar-link"><a href="#">OUR SERVICES</a></li>
+          <li class="navbar-link"><a href="#">BLOG</a></li>
+          <li class="navbar-link"><a href="#">SHOP</a></li>
+          <li class="navbar-link"><a href="#">CONTACT US</a></li>
+        </ul>
+        <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+        <i class="fas fa-search search-icon"></i>
+      </nav>
+    </div>
     <!-- Landing Section -->
-    <div>Landing Section</div>
+    <!-- Slideshow container -->
+    <section>
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="/Images/slide1.jpg" style="width: 100%" />
+          <div class="text">Hello</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="/Images/slide2.jpg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img3.jpg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
     <!-- Why Section -->
     <div>Why Section</div>
     <!-- Services -->
@@ -82,6 +139,6 @@
     <!-- Footer area -->
     <footer>Footers</footer>
 
-    
-</body>
+    <script src="./scripts/slide.js"></script>
+  </body>
 </html>
