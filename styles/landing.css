@@ -4,7 +4,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -12,9 +11,34 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  width: 100%;
+  height: 400px;
+  /* background: transparent none repeat scroll 0% 0%;
+  padding: 0px;
+  margin: 0px auto;
+  position: absolute;
+  overflow: visible;
+  width: 1908px;
+  left: -384px;
+  height: 600px; */
 }
-
-/* Next & previous buttons */
+.one {
+  background-image: url(../Images/slide1.jpg);
+  
+  
+}
+.two {
+  background-image: url(../Images/slide2.jpg);
+  
+}
+.three {
+  background-image: url(../Images/slide3.jpg);
+  
+}
+.text{
+  font-family:monospace;
+}
+/* Next & previous butto/ns */
 .prev,
 .next {
   cursor: pointer;
@@ -88,7 +112,7 @@
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+.text @-webkit-keyframes fade {
   from {
     opacity: 0.4;
   }
